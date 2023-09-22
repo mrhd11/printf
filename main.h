@@ -13,8 +13,8 @@
 */
 struct convert
 {
-        char *sym;
-        int (*f)(va_list);
+	char *sym;
+	int (*f)(va_list);
 };
 typedef struct convert conver_t;
 
@@ -44,4 +44,3 @@ int print_unsgined_number(unsigned int);
 
 
 #endif
-
